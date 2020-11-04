@@ -6,5 +6,4 @@ EECS 368 Project interactive game.
 
 ### Resources
 [Example of Gomoku 1](https://www.jianshu.com/p/b178be0fbec3/)
-</br>[Example of Gomoku 2](https://www.jianshu.com/p/83fa8cc31a38)
-
+</br>[Example of Gomoku 2](https://github.com/Stevenzwzhai/stevenzwzhai.github.com/tree/master/FE/src/chess)
