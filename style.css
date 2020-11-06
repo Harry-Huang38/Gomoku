@@ -30,11 +30,3 @@
     font-size: 25px;
     text-decoration: none;
 }
-
-.WB{
-    position: absolute;
-    width:600px;
-    left: 420px;
-    top:300px;
-    z-index: 2;
-}
