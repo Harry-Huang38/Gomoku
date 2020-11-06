@@ -1,14 +1,19 @@
-var canvas = document.getElementById("myCanvas");
-    context = canvas.getContext('2d');
+let canvas = document.getElementById("myCanvas");
+context = canvas.getContext('2d');
+var h2 = document.getElementsByClassName("h2")[0];
 
-var boxPx = 50;
-var radius = 25;
-var lineNum = 15;
+let img = new Image();
+img.src = "image/bg.jpg";
+let img_w = new Image();
+img_w.src = "image/w.png"
+let img_b = new Image();
+img_b.src = "image/b.png"
 
-var chess = 0;
-var chess_rec = [];
+let boxPx = 50;
+let radius = 25;
+let lineNum = 15;
 
-var Gomoku = [
-    { name: 'black', color: '#000000' },
-    { name: 'white', color: '#ffffff' },
-];
+// let chess = 0;//black or white
+let chess_rec = []; //record 
+let isBlack = true;
+let isOver = false;
