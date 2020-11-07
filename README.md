@@ -1,4 +1,4 @@
-# Gomoku
+# Five in a Row
 EECS 368 Project interactive game.
 
 ### Rule
